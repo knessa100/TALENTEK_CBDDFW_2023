@@ -1,0 +1,444 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-22T18:06:26.479Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"String.equalsIgnoreCase(String)\" because \"driverType\" is null\n\tat base.Config.setupBrowser(Config.java:16)\n\tat stepDef.Hook.beforeEachTest(Hook.java:19)\n",
+              "duration": 3384000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDef.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to login with valid email and password",
+        "description": "",
+        "id": "login-feature;user-should-be-able-to-login-with-valid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 145000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user in TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.LoginSteps.userInTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enter valid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on Log In button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user should be able to successfully login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-22T18:06:26.509Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"String.equalsIgnoreCase(String)\" because \"driverType\" is null\n\tat base.Config.setupBrowser(Config.java:16)\n\tat stepDef.Hook.beforeEachTest(Hook.java:19)\n",
+              "duration": 156000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDef.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User should not be able to login with valid email and invalid password",
+        "description": "",
+        "id": "login-feature;user-should-not-be-able-to-login-with-valid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 20000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user in TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.LoginSteps.userInTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user enter valid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enter invalid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks on Log In button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user should be able to see \"You have entered an incorrect email or student ID\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@hb"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-22T18:06:26.514Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"String.equalsIgnoreCase(String)\" because \"driverType\" is null\n\tat base.Config.setupBrowser(Config.java:16)\n\tat stepDef.Hook.beforeEachTest(Hook.java:19)\n",
+              "duration": 191000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDef.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User should not be able to login with invalid email and valid password",
+        "description": "",
+        "id": "login-feature;user-should-not-be-able-to-login-with-invalid-email-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user in TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.LoginSteps.userInTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user enter valid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user enter invalid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user clicks on Log In button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user should be able to see \"You have entered an incorrect email or student ID\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-22T18:06:26.518Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"String.equalsIgnoreCase(String)\" because \"driverType\" is null\n\tat base.Config.setupBrowser(Config.java:16)\n\tat stepDef.Hook.beforeEachTest(Hook.java:19)\n",
+              "duration": 147000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDef.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User should not be able to login with invalid email and password",
+        "description": "",
+        "id": "login-feature;user-should-not-be-able-to-login-with-invalid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 29000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user in TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.LoginSteps.userInTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enter invalid email address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user enter invalid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user clicks on Log In button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user should be able to see \"You have entered an incorrect email or student ID\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-22T18:06:26.520Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"String.equalsIgnoreCase(String)\" because \"driverType\" is null\n\tat base.Config.setupBrowser(Config.java:16)\n\tat stepDef.Hook.beforeEachTest(Hook.java:19)\n",
+              "duration": 197000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDef.Hook.beforeEachTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to login with a brand new email with unique email and password",
+        "description": "",
+        "id": "signup-feature;user-should-be-able-to-login-with-a-brand-new-email-with-unique-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.afterEachTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user in TalentTEK Homepage",
+            "match": {
+              "location": "stepDef.LoginSteps.userInTalentTEKHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Signup Feature",
+    "description": "",
+    "id": "signup-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/signup.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.865 s <<< FAILURE! - in TestRunner
+TestRunner.runScenario["User should be able to login with valid email and password", "Optional[Login Feature]"](1)  Time elapsed: 0.181 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "driverType" is null
+
+TestRunner.runScenario["User should not be able to login with valid email and invalid password", "Optional[Login Feature]"](2)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "driverType" is null
+
+TestRunner.runScenario["User should not be able to login with invalid email and valid password", "Optional[Login Feature]"](3)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "driverType" is null
+
+TestRunner.runScenario["User should not be able to login with invalid email and password", "Optional[Login Feature]"](4)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "driverType" is null
+
+TestRunner.runScenario["User should be able to login with a brand new email with unique email and password", "Optional[Signup Feature]"](5)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "driverType" is null
+
